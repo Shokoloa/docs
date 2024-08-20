@@ -28,29 +28,29 @@
   "tabs": [
     {
       "name": "API",
-      "url": "api-reference"
+      "url": "api"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "CGU",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://saphira-bump.fr/terms"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
+      "name": "Confidentialité",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://saphira-bump.fr/privacy"
+    },
+    {
+      "name": "Site Web",
+      "icon": "slack",
+      "url": "https://saphira-bump.fr"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Pour commencer",
       "pages": [
         "introduction",
         "quickstart",
@@ -71,15 +71,16 @@
     {
       "group": "API Documentation",
       "pages": [
-        "api-reference/introduction"
+        "api/introduction"
       ]
     },
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "/guild/votes",
+        "/guild/votes/check",
+        "/guild/bumps",
+        "/guild/bumps/check"
       ]
     }
   ],
